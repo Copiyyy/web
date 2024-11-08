@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font */
+    background: url('your-ribbon-image-url.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+    color: #f0f0f0;
+  }
+
+  h1 {
+    text-align: center;
+    color: #70001c;
+    text-shadow: 2px 2px #ffffff;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(199, 78, 128, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px dashed #cc0033;
+  }
+
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"], input[type="number"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #962949;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: #8d183f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #ce0f3f;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #a3124e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #cf4d78;
+  }
+
+  .done {
+    text-decoration: line-through;
+    color: #ffffff;
+  }
+
+  .actions button {
+    margin-left: 5px;
+    background-color: rgba(194, 37, 97, 0.938);
+  }
+
+  .actions button:hover {
+    background-color: #8b0a35;
+  }
+
+  .total {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+  }
